@@ -12,5 +12,9 @@ Requirements :
 
 
 Inputs :
-1. Selection of Multi/Single Player Game
-2. Selection of BOT type in case of Single Player Game
+1. Start Game
+2. Selection of Multi/Single Player Game
+3. Selection of BOT type in case of Single Player Game
+4. Selection of Symbol
+5. Make Move at Cell
+6. Undo Last Move
