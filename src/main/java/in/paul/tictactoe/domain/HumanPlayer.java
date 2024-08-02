@@ -1,4 +1,10 @@
 package in.paul.tictactoe.domain;
 
-public class HumanPlayer {
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class HumanPlayer extends Player{
+    String name;
 }
