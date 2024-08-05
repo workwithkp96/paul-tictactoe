@@ -8,6 +8,7 @@ import java.util.UUID;
 public class Player {
     UUID id;
     Symbol symbol;
+    String name;
 
 
     Move giveMove(){
