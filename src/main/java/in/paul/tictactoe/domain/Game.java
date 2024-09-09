@@ -1,5 +1,6 @@
 package in.paul.tictactoe.domain;
 
+import in.paul.tictactoe.dto.GameType;
 import in.paul.tictactoe.strategies.ColumnWinningStrategy;
 import in.paul.tictactoe.strategies.RowWinningStrategy;
 import in.paul.tictactoe.strategies.WinningStrategy;
@@ -14,6 +15,7 @@ public class Game {
     int currentPlayerIndex;
     GameStatus status;
     Player winner;
+    GameType gameType;
     private final List<WinningStrategy> winningStrategies = List.of(new RowWinningStrategy(), new ColumnWinningStrategy());
 
     public boolean validateMove(Move move){
